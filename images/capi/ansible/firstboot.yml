@@ -17,6 +17,9 @@
 
   tasks:
     - include_role:
+        name: setup
+        tasks_from: rpm_repos.yml
+    - include_role:
         name: firstboot
 
   environment:
