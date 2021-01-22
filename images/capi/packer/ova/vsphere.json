@@ -1,16 +1,14 @@
 {
-    "vcenter_server":"",
-    "username":"",
-    "password":"",
-    "datastore":"",
-    "datacenter":"",
-    "folder": "",
-    "cluster": "",
-    "network": "",
-    "resource_pool": "",
+    "vcenter_server":"10.78.208.38",
+    "username":"administrator@vsphere.local",
+    "password":"Admin!23",
+    "datastore":"sharedVmfs-0",
+    "datacenter":"dc0",
+    "cluster": "cluster0",
+    "network": "VM Network",
     "convert_to_template": "false",
     "linked_clone": "true",
     "create_snapshot": "true",
     "template": "",
-    "insecure_connection": "false"
+    "insecure_connection": "true"
 }

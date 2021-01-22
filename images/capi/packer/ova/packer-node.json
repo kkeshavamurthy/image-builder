@@ -252,9 +252,7 @@
         }
       ],
       "boot_command": [
-        "{{user `boot_command_prefix`}}",
-        "http://{{ .HTTPIP }}:{{ .HTTPPort }}",
-        "{{user `boot_command_suffix`}}"
+        "{{user `boot_command`}}"
       ],
       "shutdown_command": "echo '{{user `ssh_password`}}' | sudo -S -E sh -c 'usermod -L {{user `ssh_username`}} && {{user `shutdown_command`}}'",
       "export": {
