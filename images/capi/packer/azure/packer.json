@@ -183,6 +183,7 @@
     "kubernetes_series": null,
     "kubernetes_source_type": null,
     "manifest_output": "manifest.json",
+    "python_path": "",
     "subscription_id": null,
     "vm_size": ""
   }
